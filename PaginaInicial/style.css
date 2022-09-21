@@ -6,7 +6,9 @@
 
 *{ 	box-sizing: border-box;
 	padding:5px 0;	
+	font-family:"BreeSerif-Regular.ttf"
 }
+
 
 /* INÍCIO HEADER */
 header{
@@ -24,13 +26,13 @@ ul{
 	height:35px;
 	}
 
-.cadastro-car a:link{
+.usuario a:link{
 	text-decoration: none;
 	color:black;
 	
 }
 
-.cadastro-car a:hover{
+.usuario a:hover{
 	text-decoration: none;
 	color:black;
 	
@@ -80,3 +82,19 @@ ul li{
 .banner .controles img{
 	width: 100%
 }
+
+/* INÍCIO FOOTER */
+footer	{
+	background-color: #008037;
+	padding: 5px 0;
+	
+} 
+footer .container{
+	display: flex;
+	justify-content: space-between;
+	}
+
+	footer .infos{
+		justify-content: center;
+	}
+

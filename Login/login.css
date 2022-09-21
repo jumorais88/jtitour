@@ -1,0 +1,29 @@
+@font-face {
+	font-family:"BreeSerif-Regular.ttf" ;
+	src: url(fonts/BreeSerif-Regular.ttf);
+	font-weight: normal;
+}
+
+*{ 	box-sizing: border-box;
+	padding:5px 0;	
+	font-family:"BreeSerif-Regular.ttf"
+}
+
+
+/* INÍCIO HEADER */
+header{
+	background-color: white;
+	font-family:"BreeSerif-Regular.ttf";
+	display: flex;
+	justify-content: space-between
+}
+
+form{
+	display:flex
+}
+
+form section .container{
+	justify-content: center;
+
+}
+
