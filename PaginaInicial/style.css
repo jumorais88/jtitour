@@ -6,16 +6,37 @@
 
 *{ 	box-sizing: border-box;
 	padding:5px 0;	
-	font-family:"BreeSerif-Regular.ttf"
+	font-family:"BreeSerif-Regular.ttf";
+	text-decoration: none;
 }
 
-/* INÍCIO HEADER */
+/*HEADER */
 header{
 	background-color: white;
 	font-family:"BreeSerif-Regular.ttf";
 	display: flex;
-	justify-content: space-between
+	flex-direction: row;
+	justify-content: space-between;
+	}
+
+.header-imagem{
+	height: 100px;
+
+	}
+
+.header-menu{
+	display: flex;
+	gap: 50px;
+	align-items: center;
+	padding-right: 15px;
+	
 }
+
+.header-menu-item{
+	font-weight: 700;
+	
+}
+/* FIM DA HEADER */
 
 ul{
 	display: flex;
@@ -83,17 +104,27 @@ ul li{
 }
 
 /* INÍCIO FOOTER */
-footer	{
+.rodape	{
 	background-color: #008037;
 	padding: 5px 0;
+	height: 250px;
+	display: flex;
+	margin:0 auto;
+	flex-direction: column;
+	justify-content: center
 	
 } 
-footer .container{
-	display: flex;
-	justify-content: space-between;
+.rodape-info{
+	padding: 5px;
+	text-align: justify;
 	}
 
-	footer .infos{
-		justify-content: center;
+.rodape-info-adress{
+	padding: 5px;
+	text-align: justify;
 	}
 
+.rodape-info-tel{
+	padding: 5px;
+	padding-bottom: 10px;
+}

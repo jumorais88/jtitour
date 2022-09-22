@@ -16,20 +16,23 @@
 	</header>
 
 	<form action="#" method="get" target="_blank">
-		<section class="pagcadastro">
-			<div class="container">
-				<h1>CADASTRE-SE</h1>
+		<fieldset>
+				<h1 class="cadastro">NOVO CADASTRO</h1>
 				<br>
-					<label for="username">Nome de Usuário:</label><br>
-					<input type="text" id="username" name="username" placeholder="Digite o seu nome">
+				<label for="username">Nome de Usuário:</label><br>
+				<input type="text" id="username" name="username" required placeholder="Digite o seu nome">
 						<br><br>
+
 					<label for="senha">E-mail:</label><br>
 					<input type="email" id="email" name="email" placeholder="Digite seu e-mail">
 					<br><br>
+
 					<label for="telefone">Telefone</label><br>
 					<input type="tel" id="telefone" name="telefone" placeholder="(xx)00000-0000"><br><br>
+
 					<label for="estado">Estado</label><br>
 					<select id="estado" name="estado">
+						<option selected disabled>Selecione seu Estado</option>
 						<option value="AC">AC</option>
 						<option value="AL">AL</option>
 						<option value="AP">AP</option>
@@ -58,11 +61,19 @@
 						<option value="SE">SE</option>
 						<option value="TO">TO</option>
 					</select>		
+					<br><br>
+
+					<label for="regioes">Regiões de Interesse</label>
+					<p><input type="checkbox" name="regiao" id="Norte"> <label for="norte">Norte</label></p>
+					<p><input type="checkbox" name="regiao" id="Sul"> <label for="sul">Sul</label></p>
+					<p><input type="checkbox" name="regiao" id="nordeste"> <label for="nordeste">Nordeste</label></p>
+					<p><input type="checkbox" name="regiao" id="sudeste"> <label for="nordeste">Sudeste</label></p>
+					<p><input type="checkbox" name="regiao" id="centroeoste"> <label for="nordeste">Centro-Oeste</label></p>
+			
 					<button type="submit">Enviar</button>
 					<button type="reset">Limpar</button>
-			</div>
-		</section>
-	</form>	
+				</fieldset>
+				</form>	
 
 
 </body>

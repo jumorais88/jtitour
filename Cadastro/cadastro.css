@@ -15,11 +15,53 @@ header{
 	background-color: white;
 	font-family:"BreeSerif-Regular.ttf";
 	display: flex;
-	justify-content: space-between
+	justify-content: center
+}
+
+body{
+	border-color: #008037;
+	border-style: double
+}
+
+
+/* SECTION FORM */
+fieldset{
+	max-width: 50%;
+	margin: 10px auto;
+	display:flex;
+	flex-direction: column;
+	border-radius: 5px;
+	border-color: #008037;
+	border-style:dotted
 }
 
 form{
-	display:flex;
-	justify-content: center;
+	padding:20px 20px 20px 20px;
 }
 
+.cadastro{
+	text-align: center;
+
+}
+
+label{
+	padding: 5px;
+}
+input{
+	border-radius: 5px;
+}
+
+
+form button{
+	padding:10px;
+	background-color:#008037;
+	color: black;
+	text-transform: uppercase;
+	cursor: pointer;
+	}
+
+form button:hover{
+	background-color: white
+}
+
+/* END SECTION FORM */
