@@ -5,7 +5,7 @@
 }
 
 *{ 	box-sizing: border-box;
-	padding:5px 0;	
+	padding:5px;
 	font-family:"BreeSerif-Regular.ttf"
 }
 
@@ -15,13 +15,47 @@ header{
 	background-color: white;
 	font-family:"BreeSerif-Regular.ttf";
 	display: flex;
-	justify-content: space-between
+	justify-content: center
+}
+
+
+body{
+	border-color: #008037;
+	border-style: double;		}
+
+
+/* INÍCIO FORM */
+fieldset{
+	max-width: 50%;
+	margin: 10px auto;
+	display:flex;
+	padding:5px;
+	flex-direction: column;
+	border-radius: 10px;
+	border-color: #008037;
+	border-style:dotted;
+	
 }
 
 form{
 	display:flex;
 	justify-content: center;
 }
+
+form button{
+	padding:10px;
+	background-color:#008037;
+	color: black;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin: 5px;
+	}
+
+form button:hover{
+	background-color: white
+}
+
+/* Fim FORM */
 
 
 

@@ -29,11 +29,13 @@ header{
 	gap: 50px;
 	align-items: center;
 	padding-right: 15px;
+
 	
 }
 
 .header-menu-item{
 	font-weight: 700;
+	
 	
 }
 /* FIM DA HEADER */
@@ -107,24 +109,19 @@ ul li{
 .rodape	{
 	background-color: #008037;
 	padding: 5px 0;
-	height: 250px;
 	display: flex;
-	margin:0 auto;
-	flex-direction: column;
-	justify-content: center
-	
+	flex-direction: row;
+	justify-content: space-around;
+	color:white;
+	border:white;
+	border-style: groove;
 } 
-.rodape-info{
-	padding: 5px;
-	text-align: justify;
-	}
 
 .rodape-info-adress{
-	padding: 5px;
-	text-align: justify;
-	}
+	align-items: center;
+}
 
-.rodape-info-tel{
-	padding: 5px;
-	padding-bottom: 10px;
+rodape-info-consumidor{
+	display:flex
+	
 }
