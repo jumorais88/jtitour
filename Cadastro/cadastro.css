@@ -4,7 +4,7 @@
 	font-weight: large;
 }
 
-*{ 	box-sizing: border-box;
+*{ box-sizing: border-box;
 	padding:5px 0;	
 	font-family:"BreeSerif-Regular.ttf"
 }
@@ -22,6 +22,4 @@ form{
 	display:flex;
 	justify-content: center;
 }
-
-
 
